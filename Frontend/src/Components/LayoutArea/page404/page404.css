@@ -1,0 +1,26 @@
+.page404 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page404 .alert-container {
+  width: 500px;
+  margin-top: 20%;
+}
+
+.page404 .css-1pxa9xg-MuiAlert-message {
+  width: 100%;
+}
+
+.page404 > .alert {
+  position: relative;
+  display: inline-block;
+}
+
+.page404 .alert .previous-btn-container {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+}

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: buttonFont;
+  src: url("../../../Assets/Fonts/AGENTORANGE.TTF");
+}
+
+@font-face {
+  font-family: bubbleLove;
+  src: url("../../../Assets/Fonts/Bubble\ Love\ Demo.otf");
+}
+
+.Login {
+  height: 100%;
+  background-image: url(../../../Assets/Images/international-vacations-index-2023.jpeg);
+  background-size: cover;
+}
+
+.Login .css-qlz4m-MuiTypography-root {
+  font-family: bubbleLove;
+  letter-spacing: 2px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Login .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+  font-family: bubbleLove;
+}
+
+.Login .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: bubbleLove;
+}
+
+.Login .css-11lq3yg-MuiGrid-root {
+  flex-direction: column;
+}
+
+.Login .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.Login .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px;
+}
+
+.Login .css-164r41r {
+  background-color: white;
+  color: black;
+}
+
+.Login .css-1vhaqj4-MuiButtonBase-root-MuiButton-root {
+  font-family: buttonFont;
+  letter-spacing: 2px;
+}
+
+.Login .css-by671w-MuiButtonBase-root-MuiButton-root {
+  font-family: buttonFont;
+  letter-spacing: 2px;
+}

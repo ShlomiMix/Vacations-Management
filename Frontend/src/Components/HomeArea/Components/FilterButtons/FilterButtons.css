@@ -1,0 +1,79 @@
+@font-face {
+  font-family: bubbleLove;
+  src: url("../../../../Assets/Fonts/Bubble\ Love\ Demo.otf");
+}
+
+.filter-buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: fit-content;
+  border-radius: 20px;
+  gap: 30px;
+  padding: 30px;
+  margin-left: 10px;
+  margin-top: 40px;
+  position: fixed;
+}
+
+.filter-buttons-container .css-qfz70r-MuiFormGroup-root {
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-buttons-container span {
+  font-family: bubbleLove;
+}
+
+.filter-buttons-container .css-ahj2mt-MuiTypography-root {
+  color: white;
+}
+
+.filter-buttons-container .css-nnsfc0-MuiTypography-root {
+  color: white;
+  font-family: bubbleLove;
+}
+.filter-buttons-container .css-yafthl-MuiSlider-markLabel {
+  color: white;
+}
+
+.filter-buttons-container .css-i4bv87-MuiSvgIcon-root {
+  color: white;
+}
+
+.filter-buttons-container
+  .css-j204z7-MuiFormControlLabel-root
+  .MuiFormControlLabel-label {
+  font-size: small;
+}
+
+.filter-buttons-container .css-qfz70r-MuiFormGroup-root {
+  background-color: black;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.filter-buttons-container .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+  color: white;
+}
+
+.filter-buttons-container .css-1eoe787-MuiSlider-markLabel {
+  color: white;
+}
+
+.filter-buttons-container .css-1e6y48t-MuiButtonBase-root-MuiButton-root,
+span {
+  color: white;
+  font-family: bubbleLove;
+  letter-spacing: 2px;
+}

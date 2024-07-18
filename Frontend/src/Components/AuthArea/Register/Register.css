@@ -1,0 +1,68 @@
+@font-face {
+  font-family: buttonFont;
+  src: url("../../../Assets/Fonts/AGENTORANGE.TTF");
+}
+
+@font-face {
+  font-family: bubbleLove;
+  src: url("../../../Assets/Fonts/Bubble\ Love\ Demo.otf");
+}
+
+.Register {
+  height: 100%;
+  background-image: url(../../../Assets/Images/Vacation-background.jpg);
+  background-size: cover;
+}
+
+.Register .css-qlz4m-MuiTypography-root {
+  font-family: bubbleLove;
+  letter-spacing: 2px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Register .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: bubbleLove;
+  letter-spacing: 2px;
+}
+
+.Register .css-1xylxj1-MuiTypography-root-MuiLink-root {
+  color: white;
+}
+
+.Register .css-1vhaqj4-MuiButtonBase-root-MuiButton-root {
+  font-family: buttonFont;
+  letter-spacing: 2px;
+}
+
+.Register .css-1hhaxwz-MuiButtonBase-root-MuiButton-root {
+  font-family: buttonFont;
+  letter-spacing: 2px;
+}
+
+.Register .css-13i4rnv-MuiGrid-root {
+  width: 100%;
+}
+
+.Register .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-family: bubbleLove;
+  letter-spacing: 2px;
+}
+
+.Register .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px;
+}
+
+.Register .MuiBox-root .css-1kccvsy {
+  background-color: white;
+  color: white;
+}
+
+.Register .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px;
+}

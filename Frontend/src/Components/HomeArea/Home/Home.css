@@ -1,0 +1,178 @@
+.Home {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home .home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home .vacations-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 30px;
+  justify-content: center;
+}
+
+.Home .home-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 90% 10%;
+}
+
+.Home main {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-area: 50px;
+}
+
+.Home aside {
+  width: 400px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.Home .no-results {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home .no-results-text {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home h3 {
+  color: black;
+}
+
+.Home .card-vacation {
+  display: inline-block;
+  margin: 10px;
+}
+
+.Home .btn-primary {
+  border-radius: 12px;
+}
+
+.Home > .pagination-container {
+  top: 30px;
+  bottom: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 148px;
+}
+
+.Home .css-wjh20t-MuiPagination-ul {
+  justify-content: center;
+}
+
+.pagination-container .MuiButtonBase-root {
+  background-color: white;
+}
+
+.pagination-container
+  .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: black;
+  color: white;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border: 3px solid rgba(0, 102, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 150px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #0066ff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #0066ff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-top: 3px solid #0066ff;
+  border-right: 3px solid #0066ff;
+  border-radius: 50%;
+  animation: animateC 2s linear infinite;
+}
+
+.loader span {
+  display: block;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 50%;
+  width: 50%;
+  height: 4px;
+  background: transparent;
+  transform-origin: left;
+  animation: animate 2s linear infinite;
+}
+
+.loader span::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00aeff;
+  top: -6px;
+  right: -8px;
+  box-shadow: 0 0 20px 5px #0066ff;
+}
+
+@keyframes animateC {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(405deg);
+  }
+}

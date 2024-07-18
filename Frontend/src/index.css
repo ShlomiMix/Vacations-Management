@@ -1,0 +1,49 @@
+@font-face {
+  font-family: bubbleLove;
+  src: url("./Assets/Fonts/Bubble\ Love\ Demo.otf");
+}
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  background-image: linear-gradient(180deg, white, gray);
+  background-size: cover;
+  background-position: center center;
+  font-family: bubbleLove;
+  letter-spacing: 2px;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
+  font-family: bubbleLove;
+}
+
+form {
+  width: 300px;
+  border: 1px solid;
+  text-align: left;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+
+form > input,
+form > button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+form {
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

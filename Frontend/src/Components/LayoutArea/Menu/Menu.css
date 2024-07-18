@@ -1,0 +1,22 @@
+@font-face {
+  font-family: bubbleLove;
+  src: url("../../../Assets/Fonts/Bubble\ Love\ Demo.otf");
+}
+
+.Menu {
+  width: 100%;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  width: 100%;
+  color: black;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  background-color: black;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: white;
+  font-family: bubbleLove;
+}

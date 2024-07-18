@@ -1,0 +1,15 @@
+node_modules
+
+.env
+
+Vacations.postman_collection.json
+
+errors
+
+errors.log
+
+package.json
+
+package-lock.json
+
+

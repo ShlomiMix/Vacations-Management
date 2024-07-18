@@ -1,0 +1,180 @@
+@font-face {
+  font-family: bubbleLove;
+  src: url("../../../../Assets/Fonts/Bubble\ Love\ Demo.otf");
+}
+
+@font-face {
+  font-family: buttonFont;
+  src: url("../../../../Assets/Fonts/AGENTORANGE.TTF");
+}
+
+.VacationForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.VacationForm .css-1xylxj1-MuiTypography-root-MuiLink-root {
+  color: white;
+}
+
+.VacationForm .css-1vhaqj4-MuiButtonBase-root-MuiButton-root {
+  font-family: buttonFont;
+  letter-spacing: 2px;
+}
+
+.VacationForm .css-1q2tlgs-MuiTypography-root {
+  font-family: bubbleLove;
+}
+.VacationForm .css-1hhaxwz-MuiButtonBase-root-MuiButton-root {
+  font-family: buttonFont;
+  letter-spacing: 2px;
+}
+
+.VacationForm .css-13i4rnv-MuiGrid-root {
+  width: 100%;
+}
+
+.VacationForm .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-family: bubbleLove;
+}
+
+.VacationForm .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px;
+}
+
+.VacationForm .MuiBox-root .css-1kccvsy {
+  background-color: white;
+  color: white;
+}
+
+.VacationForm .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 20px;
+}
+
+.VacationForm .textarea-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.VacationForm .textarea-container > .text-area {
+  width: 378px;
+}
+
+.VacationForm .MuiInput-input {
+  width: 100%;
+  height: 56px;
+  border-radius: 20px;
+}
+
+.VacationForm .date-picker {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.VacationForm #coverImage {
+  box-sizing: inherit;
+}
+
+.VacationForm > {
+  margin-bottom: 10px;
+}
+
+.VacationForm #coverImage {
+  color: rgba(0, 0, 0, 0);
+  display: none;
+  width: 100%;
+  display: inline-block;
+}
+
+::-webkit-file-upload-button {
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.VacationForm .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input:invalid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.VacationForm .input-image {
+  position: relative;
+  height: 200px;
+}
+
+.VacationForm .input-adornment-container {
+  height: 200px;
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.VacationForm .input-adornment {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  justify-content: center;
+}
+
+.VacationForm .cover-image-container {
+  position: relative;
+}
+
+.VacationForm .cover-image-container .upload-image {
+  position: absolute;
+  z-index: 20;
+  height: 202px;
+  width: 377px;
+  left: 8px;
+  top: 38px;
+  display: inline-flex;
+}
+
+.VacationForm .cover-image-container .delete-icon-container {
+  position: absolute;
+  z-index: 21;
+  display: inline-flex;
+  top: 50px;
+  right: 8px;
+  background-color: white;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.VacationForm .grid-container-start-date {
+  position: relative;
+}
+
+.VacationForm .grid-container-end-date {
+  position: relative;
+}
+
+.VacationForm .grid-container-start-date > .delete-date-icon {
+  position: absolute;
+  top: 46px;
+  right: 10px;
+  border-radius: 50px;
+  width: 22px;
+  height: 25px;
+}
+
+.VacationForm .grid-container-end-date > .delete-date-icon {
+  position: absolute;
+  top: 46px;
+  right: 10px;
+  border-radius: 50px;
+  width: 22px;
+  height: 25px;
+}
